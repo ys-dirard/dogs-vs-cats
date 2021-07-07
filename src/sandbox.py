@@ -17,7 +17,7 @@ def app():
     st.write(df)
 
     # create dynamic table
-    st.dataframe(df.style.highlight_max(axis=0))
+    # st.dataframe(df.style.highlight_max(axis=0))
     # width=100, height=100も指定可能
 
     # create static table
